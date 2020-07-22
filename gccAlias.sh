@@ -19,3 +19,5 @@ echo "alias ${runCommand}=\"./${outputFile}\""
 
 alias ${compileAndRunCommand}="${compileCommand} && ${runCommand}"
 echo "alias ${compileAndRunCommand}=\"${compileCommand} && ${runCommand}\""
+
+exit 0
