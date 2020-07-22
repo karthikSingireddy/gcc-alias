@@ -1,9 +1,7 @@
 #!/bin/bash
 
-echo $#
-
 if [ $# -lt 5 ] || [ $# -gt 5 ]; then
-  echo "./gccAlias <compileCommand> <runCommand> <compileAndRunCommand> <c file> <output file>"
+  echo "Usage: ./gccAlias <compileCommand> <runCommand> <compileAndRunCommand> <c file> <output file>"
   exit 1
 fi
 
